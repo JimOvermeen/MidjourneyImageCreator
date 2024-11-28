@@ -29,7 +29,7 @@ export class MidjourneyService {
 
   getImage(taskId: string): Observable<any> {
     const headers = new HttpHeaders({
-      'x-rapidapi-key': '5ff069bd1fmshcf29bca29f2dce6p1b9930jsn53908529ca1c',
+      'x-rapidapi-key': environment.XRapidapiKey,
       'x-rapidapi-host':
         'midjourney-imaginecraft-generative-ai-api.p.rapidapi.com',
       'Content-Type': 'application/json',
